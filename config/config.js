@@ -116,26 +116,78 @@ export default {
             },
           
             {
-              name: 'options',
-              icon: 'group',
-              path: '/options/mantain',               
-              component: './settings',
-            },
-          
+              name: 'batches',
+              icon: 'CarryOut',
+              path: '/batch', 
+              
+              routes:[
+              { name: 'create',
+                icon: 'shopping',
+                path: '/batch/create',
+                component: './batch/create',
+                },
 
-            {
-              name: 'clients',
-              icon: 'user',
-              path: '/client/mantain',               
-              component: './client/mantain',
+               { name: 'mantain',
+                icon: 'CarryOut',
+                path: '/batch/mantain',
+                component: './batch/mantain',
+                }
+              ]              
+             
             },
+           
+            // {
+            //   name: 'dailycontrol',
+            //   icon: 'schedule',
+            //   path: '/dailycontrol',               
+            //   routes:[
+            //     { name: 'vaccine',
+            //       icon: 'edit',
+            //       path: '/dailycontrol/vaccine',
+            //       component: './dailycontrol/vaccine',
+            //       },
+  
+            //      { name: 'chickenfeed',
+            //       icon: 'weibo',
+            //       path: '/dailycontrol/chickenfeed',
+            //       component: './dailycontrol/chickenfeed',
+            //       },
 
-            {
-              name: 'users',
-              icon: 'group',
-              path: '/user/mantain',               
-              component: './user/mantain',
-            },
+            //     { name: 'costs',
+            //       icon: 'rise',
+            //       path: '/dailycontrol/costs',
+            //       component: './dailycontrol/costs',
+            //       },
+
+            //       { name: 'anomalies',
+            //       icon: 'flag',
+            //       path: '/dailycontrol/anomalies',
+            //       component: './dailycontrol/anomalies',
+            //       }
+            //     ] 
+            // },
+        
+            // {
+            //   name: 'clients',
+            //   icon: 'user',
+            //   path: '/client/mantain',               
+            //   component: './client/mantain',
+            // },
+
+
+            // {
+            //   name: 'orders',
+            //   icon: 'shoppingcart',
+            //   path: '/client/mantain',               
+            //   component: './client/mantain',
+            // },
+
+            // {
+            //   name: 'users',
+            //   icon: 'group',
+            //   path: '/user/mantain',               
+            //   component: './user/mantain',
+            // },
 
          
             {

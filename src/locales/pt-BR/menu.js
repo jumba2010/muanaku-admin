@@ -24,6 +24,9 @@ export default {
   'menu.exception.500': '500',
   'menu.clients':'Clientes',
   'menu.options': 'Opções',
-  'menu.users':'Users'
+  'menu.users':'Users',
+  'menu.batches':'Lotes',
+  'menu.batches.create':'Cadastrar Lote',
+  'menu.batches.mantain':'Manter Lotes'
 
 };

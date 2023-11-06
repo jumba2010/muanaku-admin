@@ -29,6 +29,9 @@ export default {
   'menu.clients':'Clients',
   'menu.account.settings': 'Account Settings',
   'menu.options': 'Options',
-  'menu.users':'Users'
+  'menu.users':'Users',
+  'menu.batches':'Batches',
+  'menu.batches.create':'Create Batch',
+  'menu.batches.mantain':'Mantain Batch'
 
 };
